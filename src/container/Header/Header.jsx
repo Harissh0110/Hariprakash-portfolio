@@ -35,7 +35,7 @@ const Header = () => {
             </div>
             <div className='app__navbar-cv'> 
               <a href='./'>
-                <button>Download CV</button>
+                <button>Download</button>
               </a>
             </div>
           </div>
