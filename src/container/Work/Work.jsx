@@ -7,10 +7,9 @@ import {images} from '../../constants'
 import './Work.css'
 
 const works =[
-  { title: 'Frontend project', description: 'Frontend project', imgUrl: images.about01, projectlink: 'https://admirable-crostata-8378a5.netlify.app/', codelink: 'https://admirable-crostata-8378a5.netlify.app/', tags: "Front-End"},
-  { title: 'Backend project', description: 'Backend project', imgUrl:images.about02, projectlink: 'https://admirable-crostata-8378a5.netlify.app/', codelink: 'https://admirable-crostata-8378a5.netlify.app/', tags: "Back-End"},
-  { title: 'Full Stack project', description: 'Full stack project', imgUrl:images.about03, projectlink: 'https://admirable-crostata-8378a5.netlify.app/', codelink: 'https://admirable-crostata-8378a5.netlify.app/', tags:"Full Stack"},
-  { title: 'Full Stack project', description: 'Full stack project', imgUrl:images.about04, projectlink: 'https://admirable-crostata-8378a5.netlify.app/', codelink: 'https://admirable-crostata-8378a5.netlify.app/', tags: "Full Stack"}
+  { title: 'Youtube Clone', description: 'An immersive video streaming platform built with React, replicating YouTubes interface for seamless video browsing, playback, and interaction,', imgUrl: images.youtubeclone, projectlink: 'https://utube-clone-site.netlify.app/', codelink: 'https://github.com/Harissh0110/youtube-clone', tags: "Front-End"},
+  { title: 'Django CRM', description: 'A robust client resource management platform powered by Django, featuring secure login authentication and full CRUD (Create, Read, Update, Delete) functionality for managing client data efficiently.', imgUrl:images.djangocrm, projectlink: 'https://django-crm-2-uymb.onrender.com', codelink: 'https://github.com/Harissh0110/Django-CRM', tags: "Back-End"},
+  { title: 'Ecommerce-site', description: 'A dynamic shopping platform integrating React and Django, offering user-friendly interfaces, secure authentication, & complete CRUD functionality for product management, orders, & transactions', imgUrl:images.ecommerce, projectlink: 'https://6650ef379bc1776a4c8876de--ecommerce-auronic-site.netlify.app/', codelink: 'https://github.com/Harissh0110/Auronic-Ecommerce-site', tags:"Full Stack"},
 ]
 const Work = () => {
  

@@ -34,19 +34,19 @@ const Footer = () => {
       },
       body: JSON.stringify(contact)
     })
-      .then((response) => {
-        if (response.ok) {
-          setLoading(false);
-          setIsFormSubmitted(true);
-        } else {
-          throw new Error('Failed to send message');
-        }
-      })
-      .catch((error) => {
-        console.error('Error:', error);
+    .then((response) => {
+      if (response.ok) {
         setLoading(false);
-        // Handle error, show error message, etc.
-      });
+        setIsFormSubmitted(true);
+      } else {
+        throw new Error('Failed to send message');
+      }
+    })
+    .catch((error) => {
+      console.error('Error:', error);
+      setLoading(false);
+      // Handle error, show error message, etc.
+    });
   };
 
   return (
@@ -61,10 +61,8 @@ const Footer = () => {
           </a>
         </div>
         <div className='app__footer-card'>
-          <img src={images.linkedin} alt='mobile' />
-          <a href='https://www.linkedin.com/in/hari-prakash1001/' className='p-text' target="_blank" rel="noreferrer" >
-            LinkedIN
-          </a>
+          <img src={images.mobile} alt='mobile' />
+          <p>9080614108</p>
         </div>
       </div>
 

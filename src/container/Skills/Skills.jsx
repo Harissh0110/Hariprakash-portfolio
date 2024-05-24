@@ -15,8 +15,8 @@ const frontEnd =[
 const backEnd =[
   { name: 'Python', img:images.python},
   { name: 'Django', img:images.django},
+  { name: 'PostgreSQL', img:images.postgresql},
   { name: 'Mysql', img:images.mysql},
-  { name: 'MongoDB', img:images.mongodb},
 ]
 
 const others =[
