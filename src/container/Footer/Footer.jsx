@@ -27,7 +27,7 @@ const Footer = () => {
     };
 
     // Make a POST request to the backend
-    fetch('http://localhost:5000/send-email', {
+    fetch('https://django-send-email.vercel.app/send-email/', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
