@@ -9,7 +9,7 @@ import './Work.css'
 const works =[
   { title: 'Youtube Clone', description: 'An immersive video streaming platform built with React, replicating YouTubes interface for seamless video browsing, playback, and interaction,', imgUrl: images.youtubeclone, projectlink: 'https://utube-clone-site.netlify.app/', codelink: 'https://github.com/Harissh0110/youtube-clone', tags: "Front-End"},
   { title: 'Django CRM', description: 'A robust client resource management platform powered by Django, featuring secure login authentication and full CRUD (Create, Read, Update, Delete) functionality for managing client data efficiently.', imgUrl:images.djangocrm, projectlink: 'https://django-crm-2-uymb.onrender.com', codelink: 'https://github.com/Harissh0110/Django-CRM', tags: "Back-End"},
-  { title: 'Ecommerce-site', description: 'A dynamic shopping platform integrating React and Django, offering user-friendly interfaces, secure authentication, & complete CRUD functionality for product management, orders, & transactions', imgUrl:images.ecommerce, projectlink: 'https://6650ef379bc1776a4c8876de--ecommerce-auronic-site.netlify.app/', codelink: 'https://github.com/Harissh0110/Auronic-Ecommerce-site', tags:"Full Stack"},
+  { title: 'Ecommerce-site', description: 'A dynamic shopping platform integrating React and Django, offering user-friendly interfaces, secure authentication, & complete CRUD functionality for product management, orders, & transactions', imgUrl:images.ecommerce, projectlink: 'https://ecommerce-auronic-site.netlify.app', codelink: 'https://github.com/Harissh0110/Auronic-Ecommerce-site', tags:"Full Stack"},
 ]
 const Work = () => {
  
