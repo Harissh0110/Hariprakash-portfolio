@@ -34,7 +34,7 @@ const Header = () => {
                 <p className='p-text '>Web Developer</p>
             </div>
             <div className='app__navbar-cv'> 
-              <a href='./'>
+              <a href='https://drive.google.com/file/d/10UlQD1W8jrT4NA2A1jlqLtlvr73HEcR6/view?usp=drive_link' target='_blank' rel="noreferrer"> 
                 <button>Download CV</button>
               </a>
             </div>
